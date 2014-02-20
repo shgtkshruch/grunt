@@ -1,11 +1,11 @@
 {
-  "name": "middleman",
+  "name": "bower",
   "version": "0.0.0",
-  "homepage": "https://github.com/shgtkshruch/middleman",
+  "homepage": "https://github.com/shgtkshruch/grunt",
   "authors": [
     "shgtkshruch <shgtk.shruch@gmail.com>"
   ],
-  "description": "my middleman project",
+  "description": "my bower file",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -22,16 +22,17 @@
   },
   "exportsOverride": {
     "jquery": {
-      "javascripts": "**/*.js"
+      "js": "**/*.js"
     },
     "modernizr": {
-      "javascripts": "modernizr.js"
+      "js": "modernizr.js"
     },
     "html5shiv": {
-      "javascripts": "**/*.js"
+      "js": "**/*.js"
     },
     "jquery-ui": {
-      "javascripts": "ui/jquery-ui.js"
+      "js": "ui/jquery-ui.js"
     }
-  }
+  },
+  "private": "true"
 }
