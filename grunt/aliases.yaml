@@ -1,0 +1,19 @@
+default:
+  - 'connect'
+  - 'watch'
+s:
+  - 'sass'
+  - 'autoprefixer'
+p:
+  - 'htmlmin'
+  - 'prettify'
+  - 'csscomb'
+min:
+  - 'htmlmin'
+  - 'cssmin'
+  - 'imagemin'
+s:
+  - 'browser_sync'
+  - 'watch'
+b:
+  - 'bower'
