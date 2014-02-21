@@ -1,5 +1,5 @@
 src: 'source'
 dest: 'build'
-sassDir: 'stylesheets'
-coffeeDir: 'javaScrips'
+cssDir: 'stylesheets'
+jsDir: 'javaScrips'
 imageDir: 'images'
